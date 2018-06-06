@@ -1,0 +1,192 @@
+/* FONTES */
+
+@font-face
+{
+	font-family: CenturyGothic;
+	src: url("fonts/GOTHIC.ttf");
+}
+
+@font-face
+{
+	font-family: CenturyGothicBold;
+	src: url("fonts/GOTHICB.ttf");
+}
+
+@font-face
+{
+	font-family: CenturyGothicBoldItalic;
+	src: url("fonts/GOTHICBI.ttf");
+}
+
+@font-face
+{
+	font-family: CenturyGothicItalic;
+	src: url("fonts/GOTHICI.ttf");
+}
+
+/* SITE */
+
+*
+{
+	margin: 0;
+}
+
+#banner
+{
+	width: 100%;
+	height: 90px;
+}
+
+#banner h1
+{
+	font-family: "Times New Roman";
+	font-size: 20pt;
+	font-weight: bolder;
+	text-shadow: -1px 1px 0 #000000;
+	color: #4D4D4D;
+	position: absolute;
+	top: 15px;
+	left: 55px;
+}
+
+#menu
+{
+	width: 750px;
+	height: 90px;
+	float: right;
+}
+
+#menu ul
+{
+	font-family: "CenturyGothic";
+	font-size: 11pt;
+}
+
+#menu ul li
+{
+	display: inline-block;
+	padding: 37px 8px;
+}
+
+#menu ul li a
+{
+	color: #000000;
+	text-decoration: none;
+	padding: 37px 8px;
+}
+
+#menu ul li a:hover
+{
+	background-color: #4E4E4E;
+	color: #FFFFFF;
+	padding: 37px 8px;
+}
+
+#banner-pub #img-banner-pub
+{
+	width: 100%;
+}
+
+/* Efeito de parallax */
+.poster
+{
+	width: 100%;
+	height: 700px;
+	background-image: url("images/poster.png");
+	background-size: 100% 100%;
+	background-position: center bottom; 
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+#sessao1
+{
+	width: 680px;
+	height: 280px;
+	margin: auto;
+	padding: 20px;
+}
+
+#sessao1 h2
+{
+	font-family: "CenturyGothicBold";
+	text-align: center;
+	color: #49B0FF;
+	text-shadow: -1px 1px 0 #FFFFFF;
+}
+
+#sessao1 p
+{
+	font-family: "CenturyGothicItalic";
+	text-indent: 50px;
+	color: #FFFFFF;
+	font-size: 12pt;
+	text-align: justify;
+	line-height: 25px;
+}
+
+#sessao1 a
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: "CenturyGothicItalic";
+}
+
+#sessao1 a:hover
+{
+	text-decoration: underline;
+}
+
+#container_sections
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#img_artigos
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.quadros
+{
+	margin: 5px;
+}
+
+.img_design
+{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+#footer
+{
+	width: 100%;
+	height: 170px;
+	background-color: #4D4D4D;
+	color: #FFFFFF;
+	z-index: 1;
+}
+
+#footer p
+{
+	font-family: "CenturyGothic";
+	font-size: 11pt;
+	text-align: right;
+	padding: 50px;
+}
+
+#img_footer
+{
+	width: 25%;
+	margin: -30px 10px;
+	position: absolute;
+	bottom: auto;
+}
